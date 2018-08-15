@@ -1,0 +1,54 @@
+
+
+#gameContainer {
+    background-color:#d2c6c6;
+    position:absolute;
+    padding:20px 20px 5px 20px;
+    border:1px solid black;
+    display:normal;
+}
+
+#gridContainer{
+    /*to do, make the size relative to page size*/
+    width:197px;
+    height:197px;
+    background-color:aquamarine;
+    border:1px solid black;
+    display:normal;
+    position:relative;
+}
+
+.square {
+    position:absolute;
+    width:46px;
+    height: 46px;
+    font-size:xx-large;
+    border:1px solid grey;
+    background-color:red;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    box-shadow: 1px 1px;
+}
+
+#rw1 > .square {
+    top:1px;
+}
+#rw2 > .square {
+    top:50px;
+}
+
+#rw3 > .square {
+    top:99px;
+}
+#rw4 > .square {
+    top:148px;
+}
+
+#rand #b1 {
+    position:relative;
+}
+
+#sq16 {
+
+}
